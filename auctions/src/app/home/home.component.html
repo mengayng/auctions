@@ -1,0 +1,18 @@
+<!--&lt;!&ndash;<a [routerLink]="['/']">主页</a>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;在查询参数时传递参数&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;<a [routerLink]="['/product']" [queryParams]="{id:1}">商品详情</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;从URL传递参数&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;<a [routerLink]="['/product', 1 ]">商品详情</a>&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="button" value="商品详情" (click)="toProductDetails()">&ndash;&gt;-->
+
+<!--&lt;!&ndash;<router-outlet></router-outlet>&ndash;&gt;-->
+<!--<div class="home">-->
+  <!--<div>这是主页组件</div>-->
+<!--</div>-->
+
+<div class="row">
+<app-carousel></app-carousel>
+</div>
+<div class="row carousel-container" style="margin-top: 20px">
+<app-product></app-product>
+</div>

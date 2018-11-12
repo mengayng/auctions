@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <app-search></app-search>
+    </div>
+    <div class="col-md-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+<!--<router-outlet></router-outlet>-->
+<!--<a [routerLink]="['/home']">主页</a>-->
+<!--&lt;!&ndash;在查询参数时传递参数&ndash;&gt;-->
+<!--&lt;!&ndash;<a [routerLink]="['/product']" [queryParams]="{id:1}">商品详情</a>&ndash;&gt;-->
+<!--&lt;!&ndash;从URL传递参数&ndash;&gt;-->
+<!--<a [routerLink]="['/product', 1 ]">商品详情</a>-->
+<!--<input type="button" value="商品详情" (click)="toProductDetails()">-->
+<!--<a [routerLink]="[{outlets: {primary: 'home', aux: 'chat'}}]">开始聊天</a>-->
+<!--<a [routerLink]="[{outlets: {aux: null}}]">结束聊天</a>-->
+<!--<div>-->
+  <!--<router-outlet></router-outlet>-->
+  <!--&lt;!&ndash;辅助路由&ndash;&gt;-->
+  <!--<router-outlet name="aux"></router-outlet>-->
+<!--</div>-->
+
+
