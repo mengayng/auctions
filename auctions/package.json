@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.10.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
